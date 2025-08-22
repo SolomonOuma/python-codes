@@ -28,4 +28,6 @@ for i, img_urls in enumerate(tqdm(img_urls, desc="Downloading Images")):
             f.write(img_data)
     except:
         pass
-print(f"Downloaded {len(img_urls)} images into {folder_name}")                         
+
+print(f"Downloaded {len(img_urls)} images into {folder_name}")   
+#this code allows you to webscrape images from the website Google and save them to folder
